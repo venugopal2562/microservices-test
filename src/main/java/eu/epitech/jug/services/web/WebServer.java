@@ -22,8 +22,8 @@ public class WebServer {
         SpringApplication.run(WebServer.class, args);
     }
 
-    @Bean
     @LoadBalanced
+    @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
@@ -31,7 +31,7 @@ public class WebServer {
     @Bean
     public WebAccountService accountService()
     {
-        return new WebAccountService("http://ACCOUNTS-SERVICE");
+        return new WebAccountService("http://the-account-service");
     }
 
     @Bean

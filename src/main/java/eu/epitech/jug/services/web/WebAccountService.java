@@ -16,7 +16,6 @@ import org.springframework.web.client.RestTemplate;
 public class WebAccountService {
 
     @Autowired
-    @LoadBalanced
     protected RestTemplate restTemplate;
 
     protected String serviceUrl;
@@ -31,8 +30,6 @@ public class WebAccountService {
 
     public Account getByEmail(String email) {
         logger.info("serviceurl = " + serviceUrl);
-        if (restTemplate == null)
-            logger.info("RESTTEMPLATE NULL");
         return restTemplate.getForObject(serviceUrl
                 + "/account/{email}", Account.class, email);
     }
