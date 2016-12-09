@@ -24,7 +24,7 @@ public class AccountController {
     }
 
     @RequestMapping("/account/{email}")
-    public @ResponseBody Account newAccount(@PathVariable("email") String email)
+    public Account newAccount(@PathVariable("email") String email)
     {
         return new Account(email);
     }
