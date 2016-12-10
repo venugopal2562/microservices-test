@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekajug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekajug_main.iml" group="eurekajug" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekajug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekajug_test.iml" group="eurekajug" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jug.iml" filepath="$PROJECT_DIR$/.idea/modules/jug.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauthjug.iml" filepath="$PROJECT_DIR$/.idea/modules/oauthjug.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauthjug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/oauthjug_main.iml" group="oauthjug" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauthjug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/oauthjug_test.iml" group="oauthjug" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/webjug.iml" filepath="$PROJECT_DIR$/.idea/modules/webjug.iml" />
