@@ -1,0 +1,26 @@
+# Spring properties
+spring:
+  application:
+     name: web-service
+
+# Discovery Server Access
+eureka:
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+
+# HTTP Server
+server:
+  port: 3333   # HTTP (Tomcat) port
+
+the-account-service:
+  ribbon:
+    DeploymentContextBasedVipAddresses: ACCOUNTS-SERVICE
+    #listOfServers: localhost:${SERVER.PORT}
+    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
+
+    # Interval to refresh the server list from the source (ms)
+    ServerListRefreshInterval: 30000

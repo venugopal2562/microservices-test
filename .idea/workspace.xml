@@ -1,0 +1,2571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="341c3cd0-1cf7-459a-ad01-d3fe443eb03a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/accountsjug_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/accountsjug_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/eurekajug_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/eurekajug_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/webjug_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/webjug_test.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jug/accounts-server.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jug/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jug/registration-server.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jug/web-server.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/Server.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/zdqz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/Account.java" afterPath="$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/AccountController.java" afterPath="$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/AccountController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/AccountsServer.java" afterPath="$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/AccountsServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/registration/ServiceRegistrationServer.java" afterPath="$PROJECT_DIR$/eurekajug/src/main/java/eu/epitech/ServiceRegistrationServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/Account.java" afterPath="$PROJECT_DIR$/webjug/src/main/java/eu/epitech/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebAccountController.java" afterPath="$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebAccountController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebAccountService.java" afterPath="$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebAccountService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebServer.java" afterPath="$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/accounts-server.yml" afterPath="$PROJECT_DIR$/accountsjug/src/main/resources/accounts-server.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/registration-server.yml" afterPath="$PROJECT_DIR$/eurekajug/src/main/resources/registration-server.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/web-server.yml" afterPath="$PROJECT_DIR$/webjug/src/main/resources/web-server.yml" />
+    </list>
+    <ignored path="jug.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/accounts/target/" />
+    <ignored path="$PROJECT_DIR$/accountsjug/.gradle/" />
+    <ignored path="$PROJECT_DIR$/accountsjug/build/" />
+    <ignored path="$PROJECT_DIR$/eurekajug/.gradle/" />
+    <ignored path="$PROJECT_DIR$/eurekajug/build/" />
+    <ignored path="$PROJECT_DIR$/webjug/.gradle/" />
+    <ignored path="$PROJECT_DIR$/webjug/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/accountsjug">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eurekajug">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/webjug">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state />
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="jug" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WebServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebAccountService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebAccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/AccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebAccountController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebAccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webjug/src/main/java/eu/epitech/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="/usr/share/java/gradle" />
+        <entry key="$PROJECT_DIR$/accountsjug" value="/usr/share/java/gradle" />
+        <entry key="$PROJECT_DIR$/eurekajug" value="/usr/share/java/gradle" />
+        <entry key="$PROJECT_DIR$/webjug" value="/usr/share/java/gradle" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3.2" />
+        <entry key="$PROJECT_DIR$/accountsjug" value="3.2" />
+        <entry key="$PROJECT_DIR$/eurekajug" value="3.2" />
+        <entry key="$PROJECT_DIR$/webjug" value="3.2" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="accountsjug" />
+              <option name="path" value="$PROJECT_DIR$/accountsjug" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="accountsjug" />
+                <option name="path" value="$PROJECT_DIR$/accountsjug" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="eurekajug" />
+              <option name="path" value="$PROJECT_DIR$/eurekajug" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="eurekajug" />
+                <option name="path" value="$PROJECT_DIR$/eurekajug" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="jug" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="jug" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="webjug" />
+              <option name="path" value="$PROJECT_DIR$/webjug" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="webjug" />
+                <option name="path" value="$PROJECT_DIR$/webjug" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'jug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'jug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'jug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'jug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'jug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'jug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'jug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'jug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'jug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/accountsjug">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'accountsjug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'accountsjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'accountsjug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'accountsjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'accountsjug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'accountsjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'accountsjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'accountsjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'accountsjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/accountsjug" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/eurekajug">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'eurekajug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'eurekajug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'eurekajug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'eurekajug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'eurekajug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'eurekajug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'eurekajug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'eurekajug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'eurekajug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eurekajug" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/webjug">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'webjug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'webjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'webjug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'webjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'webjug'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'webjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'webjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'webjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'webjug'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/webjug" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../Java_jcoinche_2016" value="11841424368398" />
+        <entry key="$PROJECT_DIR$" value="1481383653130" />
+        <entry key="$PROJECT_DIR$/accountsjug" value="1481385636531" />
+        <entry key="$PROJECT_DIR$/eurekajug" value="1481385640434" />
+        <entry key="$PROJECT_DIR$/webjug" value="1481385727661" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="jug" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="/usr/share/java/gradle/lib/gradle-open-api-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-cli-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-launcher-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-process-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-docs-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-model-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/groovy-all-2.4.7.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-ui-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-model-core-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-messaging-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-logging-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-resources-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-base-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/ant-launcher-1.9.6.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-wrapper-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-base-services-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/ant-1.9.6.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-installation-beacon-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-jvm-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-core-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-tooling-api-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-script-kotlin-0.4.0.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-build-comparison-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-osgi-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-antlr-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-base-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-tooling-api-builders-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-jacoco-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ivy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-diagnostics-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-java-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugin-development-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-http-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-announce-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-play-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-publish-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-dependency-management-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-scala-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-jetty-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-composite-builds-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-code-quality-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-scala-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-maven-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-signing-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugins-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-play-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugin-use-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-sftp-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-s3-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-base-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-build-init-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-test-kit-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-javascript-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ear-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-task-cache-http-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-reporting-3.2.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/accountsjug">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/accountsjug">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.4.2.RELEASE/c1b130a3d892f53d1bae979cda008cbe0a90964d/spring-boot-gradle-plugin-1.4.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.4.2.RELEASE/7516953b9d2cc1588c686660b488285795de240b/spring-boot-gradle-plugin-1.4.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.4.2.RELEASE/93a2b0226658ff436129b34f344d2ad40fdae71d/spring-boot-loader-tools-1.4.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.4.2.RELEASE/196fd2cc6079cdffbebaa813bfb8816beb602da3/spring-boot-loader-tools-1.4.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.1.RELEASE/d324f1dab8d15e9e55507d9981de9e2b6f0b1c78/dependency-management-plugin-0.6.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.1.RELEASE/46cb985239502be3dcb94e0df45f797804e95fb8/dependency-management-plugin-0.6.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.4.RELEASE/bfe85287c857ebe7f5a9dea14c24ed8e19ce08b/spring-core-4.3.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.4.RELEASE/da373e491d3863477568896089ee9457bc316783/spring-core-4.3.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/accountsjug" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="accountsjug" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="/usr/share/java/gradle/lib/gradle-open-api-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-cli-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-launcher-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-process-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-docs-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-model-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/groovy-all-2.4.7.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-ui-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-model-core-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-messaging-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-logging-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-resources-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-base-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/ant-launcher-1.9.6.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-wrapper-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-base-services-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/ant-1.9.6.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-installation-beacon-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-jvm-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-core-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-tooling-api-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-script-kotlin-0.4.0.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-build-comparison-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-osgi-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-antlr-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-base-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-tooling-api-builders-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-jacoco-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ivy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-diagnostics-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-java-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugin-development-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-http-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-announce-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-play-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-publish-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-dependency-management-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-scala-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-jetty-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-composite-builds-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-code-quality-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-scala-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-maven-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-signing-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugins-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-play-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugin-use-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-sftp-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-s3-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-base-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-build-init-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-test-kit-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-javascript-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ear-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-task-cache-http-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-reporting-3.2.jar" />
+                  <option value="$PROJECT_DIR$/accountsjug/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/accountsjug/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/eurekajug">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/eurekajug">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.4.2.RELEASE/c1b130a3d892f53d1bae979cda008cbe0a90964d/spring-boot-gradle-plugin-1.4.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.4.2.RELEASE/7516953b9d2cc1588c686660b488285795de240b/spring-boot-gradle-plugin-1.4.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.4.2.RELEASE/93a2b0226658ff436129b34f344d2ad40fdae71d/spring-boot-loader-tools-1.4.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.4.2.RELEASE/196fd2cc6079cdffbebaa813bfb8816beb602da3/spring-boot-loader-tools-1.4.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.1.RELEASE/d324f1dab8d15e9e55507d9981de9e2b6f0b1c78/dependency-management-plugin-0.6.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.1.RELEASE/46cb985239502be3dcb94e0df45f797804e95fb8/dependency-management-plugin-0.6.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.4.RELEASE/bfe85287c857ebe7f5a9dea14c24ed8e19ce08b/spring-core-4.3.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.4.RELEASE/da373e491d3863477568896089ee9457bc316783/spring-core-4.3.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/eurekajug" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="eurekajug" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="/usr/share/java/gradle/lib/gradle-open-api-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-cli-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-launcher-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-process-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-docs-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-model-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/groovy-all-2.4.7.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-ui-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-model-core-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-messaging-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-logging-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-resources-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-base-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/ant-launcher-1.9.6.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-wrapper-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-base-services-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/ant-1.9.6.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-installation-beacon-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-jvm-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-core-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-tooling-api-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-script-kotlin-0.4.0.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-build-comparison-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-osgi-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-antlr-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-base-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-tooling-api-builders-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-jacoco-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ivy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-diagnostics-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-java-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugin-development-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-http-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-announce-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-play-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-publish-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-dependency-management-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-scala-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-jetty-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-composite-builds-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-code-quality-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-scala-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-maven-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-signing-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugins-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-play-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugin-use-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-sftp-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-s3-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-base-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-build-init-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-test-kit-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-javascript-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ear-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-task-cache-http-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-reporting-3.2.jar" />
+                  <option value="$PROJECT_DIR$/eurekajug/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/eurekajug/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/webjug">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/webjug">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.4.2.RELEASE/c1b130a3d892f53d1bae979cda008cbe0a90964d/spring-boot-gradle-plugin-1.4.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.4.2.RELEASE/7516953b9d2cc1588c686660b488285795de240b/spring-boot-gradle-plugin-1.4.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.4.2.RELEASE/93a2b0226658ff436129b34f344d2ad40fdae71d/spring-boot-loader-tools-1.4.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.4.2.RELEASE/196fd2cc6079cdffbebaa813bfb8816beb602da3/spring-boot-loader-tools-1.4.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.1.RELEASE/d324f1dab8d15e9e55507d9981de9e2b6f0b1c78/dependency-management-plugin-0.6.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.1.RELEASE/46cb985239502be3dcb94e0df45f797804e95fb8/dependency-management-plugin-0.6.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.4.RELEASE/bfe85287c857ebe7f5a9dea14c24ed8e19ce08b/spring-core-4.3.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.4.RELEASE/da373e491d3863477568896089ee9457bc316783/spring-core-4.3.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/webjug" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="webjug" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="/usr/share/java/gradle/lib/gradle-open-api-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-cli-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-launcher-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-process-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-docs-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-model-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/groovy-all-2.4.7.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-ui-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-model-core-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-messaging-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-logging-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-resources-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-base-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/ant-launcher-1.9.6.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-wrapper-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-base-services-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/ant-1.9.6.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-installation-beacon-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-jvm-services-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-core-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-tooling-api-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/gradle-script-kotlin-0.4.0.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-build-comparison-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-osgi-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-antlr-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-base-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-tooling-api-builders-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-jacoco-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ivy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-groovy-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-diagnostics-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-java-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugin-development-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-http-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-announce-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-play-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-publish-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-dependency-management-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-language-scala-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-jetty-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-composite-builds-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-code-quality-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-scala-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-maven-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-signing-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugins-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-jvm-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ide-play-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-plugin-use-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-sftp-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-resources-s3-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-testing-base-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-build-init-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-test-kit-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-javascript-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-ear-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-platform-native-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-task-cache-http-3.2.jar" />
+                  <option value="/usr/share/java/gradle/lib/plugins/gradle-reporting-3.2.jar" />
+                  <option value="$PROJECT_DIR$/webjug/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/webjug/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/account/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/JugApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/account/AccountServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/registration/ServiceRegistrationServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/registration/ServiceRegistrationServer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/registration-server.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/account-server.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/account-server.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/AccountServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/OtherAccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/AccountsServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebAccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebAccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/zdqz" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebServer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/web-server.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/registration-server.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/accounts-server.yml" />
+        <option value="$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/AccountsServer.java" />
+        <option value="$PROJECT_DIR$/accountsjug/build.gradle" />
+        <option value="$PROJECT_DIR$/eurekajug/build.gradle" />
+        <option value="$PROJECT_DIR$/eurekajug/src/main/java/eu/epitech/ServiceRegistrationServer.java" />
+        <option value="$PROJECT_DIR$/webjug/build.gradle" />
+        <option value="$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/AccountController.java" />
+        <option value="$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebAccountService.java" />
+        <option value="$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebServer.java" />
+        <option value="$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/Account.java" />
+        <option value="$PROJECT_DIR$/webjug/src/main/java/eu/epitech/Account.java" />
+        <option value="$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebAccountController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webjug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webjug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webjug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webjug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epitech" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.6969353" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/libs/jug-0.0.1-SNAPSHOT.jar" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eurekajug/src/main/resources" />
+      <recent name="$PROJECT_DIR$/accountsjug/src/main/resources" />
+      <recent name="$PROJECT_DIR$/webjug/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="eu.epitech" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webjug/src/main/java/eu/epitech" />
+      <recent name="$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Web server">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jug" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Registration server" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="eu.epitech.jug.services.registration.ServiceRegistrationServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jug_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Accounts server" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="eu.epitech.jug.services.account.AccountsServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jug_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Web server" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="eu.epitech.jug.services.web.WebServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jug_main" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Registration server" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Accounts server" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Web server" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="341c3cd0-1cf7-459a-ad01-d3fe443eb03a" name="Default" comment="" />
+      <created>1481232558422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481232558422</updated>
+      <workItem from="1481232559660" duration="286000" />
+      <workItem from="1481232856052" duration="58000" />
+      <workItem from="1481232923292" duration="2754000" />
+      <workItem from="1481235949037" duration="12109000" />
+      <workItem from="1481249204810" duration="1272000" />
+      <workItem from="1481251373692" duration="2316000" />
+      <workItem from="1481250692904" duration="4247000" />
+      <workItem from="1481383651397" duration="3893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26935000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30333334" sideWeight="0.4946581" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25801283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eurekajug/src/main/resources/registration-server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/JugApplication.java" />
+    <entry file="file://$PROJECT_DIR$/accountsjug/src/main/resources/accounts-server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountsjug/src/main/resources/accounts-server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/registration/ServiceRegistrationServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/OtherAccountController.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.6.RELEASE/dad5365a5ac7a2cf252b87e62b3626cfe7f0b3a1/spring-cloud-commons-1.1.6.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/web/client/ResponseErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/c565ca9c1239b38fe4a70e4101086c4e880f6358/jcl-over-slf4j-1.7.21-sources.jar!/org/apache/commons/logging/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/account/AccountsServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.2.3.RELEASE/f17c48802a63e62620b0380af6a6e60a69cc953b/spring-cloud-netflix-core-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/metrics/atlas/AtlasConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.6.RELEASE/dad5365a5ac7a2cf252b87e62b3626cfe7f0b3a1/spring-cloud-commons-1.1.6.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/RetryLoadBalancerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/http/client/ClientHttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/http/client/support/HttpAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="614" column="46" selection-start-line="614" selection-start-column="46" selection-end-line="614" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#36255#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/http/client/AbstractClientHttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/http/client/AbstractBufferingClientHttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/http/client/InterceptingClientHttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/http/client/ClientHttpRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.2.3.RELEASE/f17c48802a63e62620b0380af6a6e60a69cc953b/spring-cloud-netflix-core-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="88" column="29" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/zdqz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekajug/src/main/resources/registration-server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountsjug/src/main/resources/accounts-server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webjug/src/main/resources/web-server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/epitech/jug/services/web/WebAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/AccountsServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountsjug/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekajug/src/main/java/eu/epitech/ServiceRegistrationServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekajug/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webjug/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webjug/src/main/java/eu/epitech/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountsjug/src/main/java/eu/epitech/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webjug/src/main/java/eu/epitech/WebAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|jug_main|jug</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.6969353" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.6969353" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
