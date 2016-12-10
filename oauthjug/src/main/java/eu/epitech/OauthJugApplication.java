@@ -9,6 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class OauthJugApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("spring.config.name", "oauth-server");
 		SpringApplication.run(OauthJugApplication.class, args);
 	}
 }
