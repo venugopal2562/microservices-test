@@ -32,6 +32,10 @@
       <module name="eurekajug_test" target="1.8" />
       <module name="jug_main" target="1.8" />
       <module name="jug_test" target="1.8" />
+      <module name="oauth-twitch_main" target="1.8" />
+      <module name="oauth-twitch_test" target="1.8" />
+      <module name="oauth_main" target="1.5" />
+      <module name="oauth_test" target="1.5" />
       <module name="oauthjug_main" target="1.8" />
       <module name="oauthjug_test" target="1.8" />
       <module name="webjug_main" target="1.8" />
