@@ -23,18 +23,18 @@ public class OAuthTest {
 
     private static FileDataStoreFactory DATA_STORE_FACTORY;
 
-    private static final String SCOPE = "https://www.googleapis.com/auth/youtube.readonly";
+    private static final String SCOPE = "read";
 
-    private static final String CLIENT_ID = "682517828264-bemq23s5frn4ihf3ld19fbo6atifnsh0.apps.googleusercontent.com";
-    private static final String SECRET_ID = "3qgALi88RnGygOEkm";
+    private static final String CLIENT_ID = "5f9b80166f0af02021d7";
+    private static final String SECRET_ID = "90886de4678fb695830d7b59bc0343769a6b761f";
 
     private static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
 
     static final JsonFactory JSON_FACTORY = new JacksonFactory();
 
-    private static final String TOKEN_SERVER_URL = "https://accounts.google.com/o/oauth2/token";
+    private static final String TOKEN_SERVER_URL = "https://api.dailymotion.com/oauth/token";
     private static final String AUTHORIZATION_SERVER_URL =
-            "https://accounts.google.com/o/oauth2/auth";
+            "https://www.dailymotion.com/oauth/authorize";
 
     /** Authorizes the installed application to access user's protected data. */
     private static Credential authorize() throws Exception {
@@ -53,22 +53,31 @@ public class OAuthTest {
     }
 
     private static void run(HttpRequestFactory requestFactory) throws IOException {
-        YoutubeURL url = new YoutubeURL("https://www.googleapis.com/youtube/v3/channels");
-        url.setPart("contentDetails");
-        url.setMine(true);
-        System.out.println("Test");
+        DailymotionURL url = new DailymotionURL("https://api.dailymotion.com/videos/favorites");
+        url.setFields("id,title,description,views_total,url");
         HttpRequest request = requestFactory.buildGetRequest(url);
         System.out.println(request.getUrl());
-        Channels channels = request.execute().parseAs(Channels.class);
-        System.out.println("Channel title: " + channels.items.get(0).snippet.title);
-        System.out.println("Channel description: " + channels.items.get(0).snippet.description);
+        DVideos videos = request.execute().parseAs(DVideos.class);
+        if (videos.list.isEmpty())
+        {
+            System.out.println("No favorite videos.");
+            return;
+        }
+        for (DVideo video : videos.list)
+        {
+            System.out.println("Video id: " + video.id);
+            System.out.println("Video title: " + video.title);
+            System.out.println("Video description: " + video.description);
+            System.out.println("Video views: " + video.views_total);
+            System.out.println("Video URL: " + video.url);
+            System.out.println("------------------------------------------");
+        }
     }
 
     public static void main(String[] args) {
         try {
             DATA_STORE_FACTORY = new FileDataStoreFactory(DATA_STORE_DIR);
             final Credential credential = authorize();
-            System.out.println("qzdqzd");
             HttpRequestFactory requestFactory =
                     HTTP_TRANSPORT.createRequestFactory(new HttpRequestInitializer() {
                         public void initialize(HttpRequest request) throws IOException {
@@ -76,7 +85,6 @@ public class OAuthTest {
                             request.setParser(new JsonObjectParser(JSON_FACTORY));
                         }
                     });
-            System.out.println("qzdzdqzdqzdqzd");
             run(requestFactory);
             // Success!
             return;

@@ -3,18 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/accountsjug.iml" filepath="$PROJECT_DIR$/.idea/modules/accountsjug.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/accountsjug.iml" filepath="$PROJECT_DIR$/.idea/modules/accountsjug.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/accountsjug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/accountsjug_main.iml" group="accountsjug" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/accountsjug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/accountsjug_test.iml" group="accountsjug" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekajug.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekajug.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekajug.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekajug.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekajug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekajug_main.iml" group="eurekajug" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekajug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekajug_test.iml" group="eurekajug" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jug.iml" filepath="$PROJECT_DIR$/.idea/modules/jug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices-test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauth/oauth.iml" filepath="$PROJECT_DIR$/.idea/modules/oauth/oauth.iml" group="oauth" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauth/oauth_main.iml" filepath="$PROJECT_DIR$/.idea/modules/oauth/oauth_main.iml" group="oauth" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauth/oauth_test.iml" filepath="$PROJECT_DIR$/.idea/modules/oauth/oauth_test.iml" group="oauth" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webjug.iml" filepath="$PROJECT_DIR$/.idea/modules/webjug.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/webjug.iml" filepath="$PROJECT_DIR$/.idea/modules/webjug.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/webjug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/webjug_main.iml" group="webjug" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/webjug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/webjug_test.iml" group="webjug" />
